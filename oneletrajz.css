@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+main{
+    width: 1200px;
+    background-color: rgb(241, 239, 236);
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid gray;
+}
+
+article{
+    display: grid;
+    grid-template-areas: 'me tovabbi tovabbi';
+}
+
+#me{
+    grid-area: me;
+    margin: 20px;
+    max-width: 300px;
+}
+
+#me img{
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 65px;
+}
+
+#me ul li{
+    font-family: 'Akaya Telivigala';
+}
+
+#me h3{
+    font-size: 22pt;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    margin-top: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+
+#me h4{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Rajdhani';
+}
+
+#other{
+    grid-area: tovabbi;
+    background-color: white;
+    width: 900px;
+}
